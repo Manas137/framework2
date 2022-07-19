@@ -15,6 +15,7 @@ public class HooksCode {
 
 	WebDriver driver = null;
 
+	
 	@Before("@Smoke")
 	public void setup() {
 		System.out.println("Inside : setup");
